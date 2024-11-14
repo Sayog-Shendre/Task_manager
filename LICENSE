@@ -1,21 +1,32 @@
-MIT License
+# Simple Task Manager
 
-Copyright (c) 2024 Sayog Shendre
+## Overview
+The Simple Task Manager is a lightweight web application designed to help users manage their tasks efficiently. Users can add, edit, delete, and categorize tasks based on priority and due dates. The application features a clean and intuitive user interface, allowing users to easily navigate through their tasks and stay organized.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+### Core Features
+- **Dashboard**: View upcoming tasks, overdue tasks, and completed tasks in a simple dashboard layout.
+- **Task Management**: Add, edit, and delete tasks with a title, description, due date, and priority level (High, Medium, Low).
+- **Search and Filter**: Quickly find tasks using a search bar and filter tasks based on priority and completion status.
+- **Local Storage**: Task data is stored in the browser's local storage, ensuring persistence across sessions.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Setup Instructions
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+To set up and run the Simple Task Manager application locally, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/simple-task-manager.git
+   cd simple-task-manager
+
+## Additional Information
+- This application is built using HTML, CSS, and Vanilla JavaScript.
+- It utilizes the browser's local storage to save tasks, so no server-side code or database is required.
+
+## Assumptions Made During Development
+- Users will have a modern web browser that supports local storage.
+- The application is designed for personal task management and is not intended for collaborative use.
+- It is assumed that users will input valid data for task titles and due dates.
+- The application is designed to be simple and may not include extensive error handling for invalid inputs.
+
+## Live Demo
+- You can view a live demo of the Simple Task Manager at https://projectd2024.ccbp.tech/.
