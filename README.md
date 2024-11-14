@@ -36,4 +36,4 @@ Tasks can be marked as completed, edited, or deleted using the provided buttons 
 - The application is designed to be simple and may not include extensive error handling for invalid inputs.
 
 ### Live Demo
-You can view a live demo of the Simple Task Manager at https://projectd2024.ccbp.tech/.
+You can view a live demo of the Simple Task Manager at .
